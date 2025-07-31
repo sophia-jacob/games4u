@@ -20,3 +20,69 @@ body{
 .header{
     text-align: center;
 }
+
+.image{
+    width: 400px;
+    height: 400px;
+}
+
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #82a18f;
+}
+
+.game-container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.game-board{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 315px;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cell:hover{
+    background-color: #ddd;
+}
+
+.message{
+    margin-top: 15px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#restartButton{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#restartButton:hover{
+    background-color: #0056b3;
+}
