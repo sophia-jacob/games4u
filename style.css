@@ -1,0 +1,22 @@
+body{
+    background-color: #eac9aa;
+}
+
+.navbar{
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: #896c68;
+    background-color: #f6dda7;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 10px;
+}
+
+.navbar:hover{
+    background-color: 	#d4c3b2;
+}
+
+.header{
+    text-align: center;
+}
