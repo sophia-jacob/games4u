@@ -33,7 +33,6 @@ h1{
 }
 
 .game-container{
-    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -52,7 +51,7 @@ h1{
 .cell{
     width: 100px;
     height: 100px;
-    background-color: #eee;
+    background-color: #896c68;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +62,7 @@ h1{
 }
 
 .cell:hover{
-    background-color: #ddd;
+    background-color: #82a18f;
 }
 
 .message{
@@ -77,12 +76,12 @@ h1{
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-    background-color: #007bff;
+    background-color: #82a18f;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 #restartButton:hover{
-    background-color: #0056b3;
+    background-color: 	#896c68;
 }
