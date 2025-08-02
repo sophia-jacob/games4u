@@ -21,11 +21,11 @@ function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // Draw food
-    ctx.fillStyle = 'red';
+    ctx.fillStyle = '#82a18f';
     ctx.fillRect(food.x * gridSize, food.y * gridSize, gridSize, gridSize);
 
     // Draw snake
-    ctx.fillStyle = 'lime';
+    ctx.fillStyle = '#ec8e75';
     snake.forEach(segment => {
         ctx.fillRect(segment.x * gridSize, segment.y * gridSize, gridSize, gridSize);
     });
@@ -92,7 +92,7 @@ function startGame() {
     scoreDisplay.textContent = score;
     generateFood();
     clearInterval(gameInterval); // Clear any existing interval
-    gameInterval = setInterval(update, 100); // Game speed
+    gameInterval = setInterval(update, 150);// Game speed
 }
 
 startGame();
