@@ -2,10 +2,22 @@
 <html>
     <head>
         <title>Tic Tac Toe</title>
-        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="tictactoe.css" rel="stylesheet" type="text/css">
         <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/006/409/900/non_2x/tic-tac-toe-sketched-isolated-vintage-game-in-hand-drawn-style-vector.jpg" type="image/png">
+ <script src="script.js"></script>
+
     </head>
     <body>
+          <header>
+            <nav>
+                <ul class="header">
+                    <a class="navbar" href="index.html">Home</a>
+                    <a class="navbar" href="tictactoe.html">Tic Tac Toe</a>
+                    <a class="navbar" href="rps.html">Rock Paper Scissors</a>
+                    <a class="navbar" href="memory.html">Memory Games</a> <!--might change-->
+                </ul>
+            </nav>
+        </header>
         <div class="game-container">
             <h1>Tic Tac Toe</h1>
             <div id="gameBoard" class="game-board">
@@ -22,6 +34,5 @@
             <div id="message" class="message"></div>
             <button id="restartButton">Restart Game</button>
         </div>
-        <script src="script.js"></script>
     </body>
 </html>
